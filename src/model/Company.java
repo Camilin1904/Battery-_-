@@ -41,7 +41,7 @@ public class Company{
     
     private int getEmptyPosition() {
         int pos = MAX_BATTERIES;
-        for (int i = 0; i < MAX_BATTERIES && pos == -1; i++) {
+        for (int i = 0; i < MAX_BATTERIES; i++) {
             if (batteries[i] == null) {
                 pos = i;
             }

@@ -25,4 +25,9 @@ public class RechargeableBattery extends Battery {
         }
         return usefulLifeCost;
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + "\nTipo: " + type;
+    }
 }
